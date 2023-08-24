@@ -1,0 +1,11 @@
+// Para permitir que el proyecto pueda utilizar los Style components como Style frameworks
+// Instalar Style components para todos los proyectos! Si sabemos CSS esto nos permite crear componentes de funcion basica para todos nuestros estilos
+// permitiendonos replicar los templates de componentes en todo el proyecto, lo que da mucha visibilidad en el codigo y permite ir y editar los estilos
+// replicar o duplicar los componentes, etc.
+
+// Aca habilitamos nuestro archivo babel personalizado
+
+{
+    "presets": ["next/babel"],
+    "plugins": [["styled-components", { "ssr": true, "displayName": true }]]
+}
